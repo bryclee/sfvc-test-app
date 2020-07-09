@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA3A8D1924B55791008E1D63 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A8D1824B55791008E1D63 /* SafariView.swift */; };
+		FA3A8D1B24B55DE7008E1D63 /* HSHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A8D1A24B55DE7008E1D63 /* HSHostingController.swift */; };
 		FAB7504324B5310700EB34D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB7504224B5310700EB34D2 /* AppDelegate.swift */; };
 		FAB7504524B5310700EB34D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB7504424B5310700EB34D2 /* SceneDelegate.swift */; };
 		FAB7504724B5310700EB34D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB7504624B5310700EB34D2 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA3A8D1824B55791008E1D63 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		FA3A8D1A24B55DE7008E1D63 /* HSHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSHostingController.swift; sourceTree = "<group>"; };
 		FAB7503F24B5310700EB34D2 /* SFVC-test-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFVC-test-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB7504224B5310700EB34D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAB7504424B5310700EB34D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				FAB7504D24B5310900EB34D2 /* LaunchScreen.storyboard */,
 				FAB7505024B5310900EB34D2 /* Info.plist */,
 				FAB7504A24B5310900EB34D2 /* Preview Content */,
+				FA3A8D1824B55791008E1D63 /* SafariView.swift */,
+				FA3A8D1A24B55DE7008E1D63 /* HSHostingController.swift */,
 			);
 			path = "SFVC-test-app";
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3A8D1B24B55DE7008E1D63 /* HSHostingController.swift in Sources */,
+				FA3A8D1924B55791008E1D63 /* SafariView.swift in Sources */,
 				FAB7504324B5310700EB34D2 /* AppDelegate.swift in Sources */,
 				FAB7504524B5310700EB34D2 /* SceneDelegate.swift in Sources */,
 				FAB7504724B5310700EB34D2 /* ContentView.swift in Sources */,

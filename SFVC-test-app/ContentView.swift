@@ -9,8 +9,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var url = "https://www.paypal.com"
+    @State var showSFVC = false
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            HStack {
+                Text("URL:")
+                    .font(.callout)
+                    .bold()
+                
+                TextField("URL", text: $url)
+                    .autocapitalization(.none)
+                    .disableAutocorrection(true)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+            }
+            .padding()
+            
+            Button(action: {
+                HSHosting.openSafari(url: URL(string: self.url)!)
+            }) {
+                HStack {
+                    Image(systemName: "safari")
+                    
+                    Text("Open in SFSafariViewController")
+                }
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(Color.white)
+                    .cornerRadius(10)
+            }
+        }
+
     }
 }
 
